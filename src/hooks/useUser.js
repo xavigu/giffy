@@ -1,9 +1,10 @@
 import {useCallback, useContext, useState} from 'react'
 import Context from 'context/UserContext'
 import loginService from 'services/login'
+import addFavService from 'services/favs'
 
 export default function useUser () {
-  const {jwt, setJWT} = useContext(Context);
+  const {jwt, favs, setJWT, setFavs} = useContext(Context);
   const [state, setState]= useState({loading: false, error: false});
 
   const login = useCallback(({username, password}) => {
@@ -21,12 +22,22 @@ export default function useUser () {
       })
   }, [setJWT])
 
+  const fav = useCallback(({id}) => {
+    addFavService({id, jwt})
+      // es igual a escribir .then(favs => setFavs(favs))
+      .then(setFavs)
+      .catch(err => {
+        console.log(err);
+      })
+  }, [])
+
   const logout = useCallback(() => {
     window.sessionStorage.removeItem('jwt');
     setJWT(null)
   }, [setJWT])
 
   return {
+    fav,
     isLogged: Boolean(jwt),
     isLoginLoading: state.loading,
     hasLoginError: state.error,
