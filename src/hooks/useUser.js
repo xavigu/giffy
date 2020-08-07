@@ -4,7 +4,7 @@ import loginService from 'services/login'
 
 export default function useUser () {
   const {jwt, setJWT} = useContext(Context);
-  const {state, setState} = useState({loading: false, error: false});
+  const [state, setState]= useState({loading: false, error: false});
 
   const login = useCallback(({username, password}) => {
     setState({loading: true, error: false});
