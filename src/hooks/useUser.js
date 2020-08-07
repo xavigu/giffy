@@ -22,7 +22,7 @@ export default function useUser () {
       })
   }, [setJWT])
 
-  const fav = useCallback(({id}) => {
+  const addFav = useCallback(({id}) => {
     addFavService({id, jwt})
       // es igual a escribir .then(favs => setFavs(favs))
       .then(setFavs)
@@ -37,7 +37,8 @@ export default function useUser () {
   }, [setJWT])
 
   return {
-    fav,
+    favs,
+    addFav,
     isLogged: Boolean(jwt),
     isLoginLoading: state.loading,
     hasLoginError: state.error,
