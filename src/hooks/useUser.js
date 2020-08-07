@@ -1,7 +1,7 @@
 import {useCallback, useContext, useState} from 'react'
 import Context from 'context/UserContext'
 import loginService from 'services/login'
-import addFavService from 'services/favs'
+import addFavService from 'services/addFav'
 
 export default function useUser () {
   const {jwt, favs, setJWT, setFavs} = useContext(Context);
