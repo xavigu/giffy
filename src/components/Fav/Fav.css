@@ -5,6 +5,7 @@
   cursor: pointer;
   width: 30px;
   height: 30px;
+  margin: 0 4px;
   transition: all .3s ease;
 }
 
