@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/giffy/static/css/main.cc5ede15.chunk.css",
+    "main.js": "/giffy/static/js/main.3c05a992.chunk.js",
+    "main.js.map": "/giffy/static/js/main.3c05a992.chunk.js.map",
+    "runtime-main.js": "/giffy/static/js/runtime-main.52faefd8.js",
+    "runtime-main.js.map": "/giffy/static/js/runtime-main.52faefd8.js.map",
+    "static/js/2.62c3eeaa.chunk.js": "/giffy/static/js/2.62c3eeaa.chunk.js",
+    "static/js/2.62c3eeaa.chunk.js.map": "/giffy/static/js/2.62c3eeaa.chunk.js.map",
+    "static/css/3.44a3b75a.chunk.css": "/giffy/static/css/3.44a3b75a.chunk.css",
+    "static/js/3.5b6ceb1b.chunk.js": "/giffy/static/js/3.5b6ceb1b.chunk.js",
+    "static/js/3.5b6ceb1b.chunk.js.map": "/giffy/static/js/3.5b6ceb1b.chunk.js.map",
+    "static/js/4.d09b1d36.chunk.js": "/giffy/static/js/4.d09b1d36.chunk.js",
+    "static/js/4.d09b1d36.chunk.js.map": "/giffy/static/js/4.d09b1d36.chunk.js.map",
+    "static/js/5.2ab93d68.chunk.js": "/giffy/static/js/5.2ab93d68.chunk.js",
+    "static/js/5.2ab93d68.chunk.js.map": "/giffy/static/js/5.2ab93d68.chunk.js.map",
+    "index.html": "/giffy/index.html",
+    "precache-manifest.d4ae919edc2e619e29aca5a23e121846.js": "/giffy/precache-manifest.d4ae919edc2e619e29aca5a23e121846.js",
+    "service-worker.js": "/giffy/service-worker.js",
+    "static/css/3.44a3b75a.chunk.css.map": "/giffy/static/css/3.44a3b75a.chunk.css.map",
+    "static/css/main.cc5ede15.chunk.css.map": "/giffy/static/css/main.cc5ede15.chunk.css.map",
+    "static/js/2.62c3eeaa.chunk.js.LICENSE.txt": "/giffy/static/js/2.62c3eeaa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52faefd8.js",
+    "static/js/2.62c3eeaa.chunk.js",
+    "static/css/main.cc5ede15.chunk.css",
+    "static/js/main.3c05a992.chunk.js"
+  ]
+}
