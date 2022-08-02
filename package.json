@@ -1,4 +1,5 @@
 {
+  "homepage": "http://xavigu.github.io/Giffy-Searcher",
   "name": "giffy",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,8 @@
     "wouter": "2.4.0"
   },
   "scripts": {
-    "deploy": "vercel",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +47,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^4.0.0",
     "react-test-renderer": "^16.13.1"
   }
 }
