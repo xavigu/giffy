@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b28b34b58f9e0e6ec0b718f4fb8f6040",
+    "revision": "30a35dec9672a192247a7df6882e18c2",
     "url": "/giffy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/giffy/static/css/3.44a3b75a.chunk.css"
   },
   {
-    "revision": "7146a467521d3c89eeb0",
+    "revision": "7451dc1a8ca95525c28b",
     "url": "/giffy/static/css/main.cc5ede15.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/giffy/static/js/5.2ab93d68.chunk.js"
   },
   {
-    "revision": "7146a467521d3c89eeb0",
-    "url": "/giffy/static/js/main.c3ba6136.chunk.js"
+    "revision": "7451dc1a8ca95525c28b",
+    "url": "/giffy/static/js/main.a8beb1c4.chunk.js"
   },
   {
     "revision": "c6f917b4bf764e5ff274",
