@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 import useUser from 'hooks/useUser'
 import {useLocation} from 'wouter'
@@ -15,7 +16,10 @@ export default function Fav({ id, url }) {
   }
 
   const handleClipboard = () => {
-    navigator.clipboard.writeText(url);
+    const mediaPattern = /(media)\d+/g
+    var newUrl = url.replace(mediaPattern, 'media');
+
+    navigator.clipboard.writeText(newUrl);
   }
 
   const [label, emoji] = isFaved ? ['Remove Gif favorites', '❌'] : ['Add Gif favorites', '❤️']
