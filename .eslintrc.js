@@ -19,5 +19,8 @@ module.exports = {
     'react'
   ],
   rules: {
+    quotes: 'off',
+    semi: 'off',
+    indent: 'off',
   }
 }
