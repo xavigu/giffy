@@ -29,7 +29,11 @@ export default function App() {
             <Switch>
               <Route
                 component={HomePage}
-                path="/"
+                path={"/"}
+              />
+              <Route
+                component={HomePage}
+                path={"/giffy"}
               />
               <Route
                 component={SearchResults}
