@@ -44,4 +44,5 @@ At this point, the  React app's `package.json` file includes deployment scripts.
     > That will cause the `predeploy` and `deploy` scripts defined in `package.json` to run.
 
 5. You need add a theme in the section Settings -> Pages in project´s repository (any theme if you dont add a default theme will not be deployed).
+  
    Remember select the branch gh-pages to deploy
